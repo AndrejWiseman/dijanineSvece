@@ -19,6 +19,7 @@
     "gatsby": "^5.12.9",
     "gatsby-plugin-babel-optional-chaining": "^1.0.0",
     "gatsby-plugin-cloudflare-pages": "^1.0.0-alpha.2",
+    "gatsby-plugin-google-gtag": "^5.12.3",
     "gatsby-plugin-robots-txt": "^1.8.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
