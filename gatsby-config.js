@@ -8,5 +8,10 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
-  plugins: [],
+  plugins: [
+    'gatsby-plugin-babel-optional-chaining',
+
+
+    
+  ],
 }

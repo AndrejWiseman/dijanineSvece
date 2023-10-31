@@ -13,7 +13,10 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
-    "gatsby": "^5.12.4",
+    "@babel/core": "^7.23.2",
+    "@babel/plugin-proposal-optional-chaining": "^7.21.0",
+    "gatsby": "^5.12.9",
+    "gatsby-plugin-babel-optional-chaining": "^1.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
