@@ -21,7 +21,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        // host: 'https://dijana-svijece.netlify.app',
+        host: null,
         sitemap: 'https://dijana-svijece.netlify.app/sitemap.xml',
         // policy: [{userAgent: '*', allow: '/'}]
       }
