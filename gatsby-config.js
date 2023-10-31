@@ -15,7 +15,17 @@ module.exports = {
 
   plugins: [
     'gatsby-plugin-babel-optional-chaining',
-    'gatsby-plugin-robots-txt',
+    // 'gatsby-plugin-robots-txt',
+
+
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        // host: 'https://dijana-svijece.netlify.app',
+        sitemap: 'https://dijana-svijece.netlify.app/sitemap.xml',
+        // policy: [{userAgent: '*', allow: '/'}]
+      }
+    }
 
 
     
