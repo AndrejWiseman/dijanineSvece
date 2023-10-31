@@ -10,7 +10,7 @@
 module.exports = {
 
   siteMetadata: {
-    siteUrl: 'https://dijana-svijece.netlify.app'
+    // siteUrl: 'https://dijana-svijece.netlify.app'
   },
 
   plugins: [
