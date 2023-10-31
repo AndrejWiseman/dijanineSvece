@@ -15,7 +15,7 @@ module.exports = {
 
   plugins: [
     'gatsby-plugin-babel-optional-chaining',
-    // 'gatsby-plugin-robots-txt',
+    `gatsby-plugin-cloudflare-pages`,
 
 
     {
