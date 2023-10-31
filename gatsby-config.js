@@ -8,8 +8,14 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
+
+  siteMetadata: {
+    siteUrl: 'https://dijana-svijece.netlify.app'
+  },
+
   plugins: [
     'gatsby-plugin-babel-optional-chaining',
+    'gatsby-plugin-robots-txt',
 
 
     
