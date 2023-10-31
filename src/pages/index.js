@@ -5,6 +5,7 @@ export default function Home() {
     <>
       <h1>Zdravo svete!</h1>
       <h2>Test #1</h2>
+      <h2>Test #2</h2>
     </>
   )
 }
