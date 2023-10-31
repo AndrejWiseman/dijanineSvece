@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dijana-svijece.netlify.app/sitemap.xml
