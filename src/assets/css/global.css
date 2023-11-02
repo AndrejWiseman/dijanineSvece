@@ -1,0 +1,38 @@
+
+:root {
+    --bg1: #ffffff;
+    --bg2:#f9fdfe;
+    --bg3: #f2f7fb;
+    --bg4: #51859a;
+    --bg5: #354861;
+    --bg5: #eff5f9;
+
+    --txt1: #ffffff;
+    --txt2: #aaaaaa;
+    --txt3: #818a91;
+    --txt4: #51859a;
+    --txt5: #cc3366;
+    --txt6: #565656;
+    --txt7: #4d4d4d;
+    --txt8: #354861;
+    --txt9: #333333;
+    --txt10: #000000;
+
+    --font1: Philosopher, sans-serif;
+    --font2: Mulish, sans-serif;
+    --font3: URWClassico, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg1);
+}
+
+h1 {
+    font-family: var(--font3);
+}

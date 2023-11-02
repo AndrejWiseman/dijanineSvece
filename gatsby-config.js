@@ -16,6 +16,10 @@ module.exports = {
   plugins: [
     'gatsby-plugin-babel-optional-chaining',
     `gatsby-plugin-cloudflare-pages`,
+    `gatsby-plugin-sass`,
+    `gatsby-plugin-image`,
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
 
 
 
@@ -35,9 +39,54 @@ module.exports = {
       options: {
         host: null,
         sitemap: 'https://dijana-svijece.netlify.app/sitemap.xml',
-        // policy: [{userAgent: '*', allow: '/'}]
+        policy: [{userAgent: '*', allow: '/'}]
       }
-    }
+    },
+
+
+    {
+      resolve: `gatsby-plugin-webfonts`,
+      options: {
+        fonts: {
+          google: [
+            {
+              family: "Mulish",
+              variants: ["300", "400", "500"],
+            },
+            {
+              family: "Philosopher",
+              variants: ["400", "700"],
+            },
+          ],
+          selfHosted: [
+            {
+              family: "URWClassico",
+              urls: {
+                // src attributes
+                // path relative to gatsby project root
+                // woff2: `/examplePath/filename.woff2`,
+                woff: `/src/assets/fonts/URWClassico-Regular.woff`,
+                // otf: `/examplePath/filename.otf`,
+                // ttf: `/examplePath/filename.ttf`,
+              },
+              fontStyle: "regular",
+              fontWeight: 400,
+            },
+          ],
+        },
+      },
+    },
+
+
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        // The unique name for each instance
+        name: `images`,
+        // Path to the directory
+        path: `${__dirname}/src/assets/images`,
+      },
+    },
 
 
     
