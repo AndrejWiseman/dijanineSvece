@@ -1,0 +1,41 @@
+
+nav {
+    padding: 2rem 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .nav-logo {
+
+        img {
+            width: 50px;
+        }
+    }
+
+    .links {
+        
+        ul {
+            list-style-type: none;
+            display: flex;
+            gap: 20px;
+
+            li {
+
+                a {
+                    text-decoration: none;
+                    color: white;
+                    font-family: var(--font2);
+                }
+            }
+
+        }
+    }
+
+    .socijalne-mreze {
+        
+        a {
+            color: white;
+            font-size: 2.1rem;
+        }
+    }
+}
