@@ -7,7 +7,6 @@ import '../assets/css/index.scss'
 
 
 
-
 export default function Home() {
   return(
     <Layout>
