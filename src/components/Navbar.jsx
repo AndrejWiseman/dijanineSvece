@@ -17,14 +17,15 @@ function Navbar() {
         <nav>
             <div className='logo'>
                 {/* <Link to='/'><h2>Harmonija</h2></Link> */}
-                <a href="#"><img src={logo} alt="logo" /></a>
+                {/* <a href="/"><img src={logo} alt="logo" /></a> */}
+                <Link to="/"><img src={logo} alt="logo" /></Link>
             </div>
 
             <ul className={show ? `menu-items active` : `menu-items`}>
                 <div className='links'>
-                  <li><Link to='/' onClick={() => setShow(false)}>Shop</Link></li>
-                  <li><Link to='/' onClick={() => setShow(false)}>O meni</Link></li>
-                  <li><Link to='/' onClick={() => setShow(false)}>Katalog</Link></li>
+                  <li><Link to='/shop' onClick={() => setShow(false)}>Shop</Link></li>
+                  <li><Link to='/o-meni' onClick={() => setShow(false)}>O meni</Link></li>
+                  <li><Link to='/ponuda' onClick={() => setShow(false)}>Katalog</Link></li>
                 </div>
 
                 <div className='social'  >

@@ -3,9 +3,11 @@
     display: grid;
     place-items: center;
     height: 50%;
+    min-height: 100dvh;
+    background-color: var(--bg4);
 
 
     h1 {
-        color: var(--txt4);
+        color: var(--txt5);
     }
 }
